@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import MovieList from "../../MovieList/MovieList";
-import { searchMovies } from "../../../api";
+import { searchMovies } from "../../api";
+import MovieList from "../../components/MovieList/MovieList";
 
 const MoviesPage = () => {
   const [query, setQuery] = useState("");

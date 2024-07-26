@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 import "./HomePage.module.css";
-import { getTrendingMovies } from "../../../api";
-import MovieList from "../../MovieList/MovieList";
+import { getTrendingMovies } from "../../api";
+import MovieList from "../../components/MovieList/MovieList";
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
